@@ -1,0 +1,286 @@
+body {
+    margin: 0; /* Elimina márgenes predeterminados */
+    height: 100vh; /* Hace que el body ocupe toda la altura de la ventana */
+    background-image: url('comercialpattycopia.jpeg'); /* Ruta a tu imagen de fondo */
+    background-size: cover; /* Asegura que la imagen cubra todo el body */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+
+.login {
+    max-width: 500px; /* Ajusta este valor */
+    margin: 100px auto; /* Ajusta el margen superior según lo que necesites */
+    padding: 40px 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+    
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 80px;
+}
+
+label {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="text"], input[type="password"] {
+    width: 95%;
+    height: 35px; /* Aumenta la altura */
+    margin-bottom: 15px; /* Ajusta el margen inferior */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px; /* Aumenta el tamaño de fuente */
+}
+
+input[type="submit"] {
+    width: 95%;
+    height: 45px; /* Aumenta la altura */
+    background-color: #945814;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Aumenta el tamaño de fuente */
+}
+
+input[type="submit"]:hover {
+    background-color: #f7b870;
+}
+
+
+
+
+
+.contenedor-navegacion {
+    background-color: #978f96; /* Color de fondo */
+    color: #2e2b2b; /* Color del texto */
+    padding: 20px 0; /* Espacio superior e inferior */
+    font-size: 20px; /* Tamaño de la fuente */
+    position: relative; /* Permite ajustes de posición */
+    margin-bottom: 20px; /* Espacio debajo de la barra de navegación */
+}
+
+nav ul {
+    margin: 0; /* Elimina márgenes */
+    padding: 0; /* Elimina padding */
+    list-style: none; /* Elimina los puntos de la lista */
+    text-align: center; /* Centra el contenido */
+}
+
+nav li {
+    display: inline-block; /* Alinea los elementos de la lista horizontalmente */
+    margin-right: 30px; /* Espacio entre los elementos */
+}
+
+nav li:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento */
+}
+
+nav a {
+    color: #f7f0f0; /* Color del enlace */
+    text-decoration: none; /* Elimina el subrayado */
+    padding: 10px 20px; /* Espacio alrededor del texto del enlace */
+    transition: color 0.3s; /* Suaviza la transición del color al pasar el mouse */
+}
+
+nav a:hover {
+    color: #ccc; /* Color del enlace al pasar el mouse */
+}
+
+
+
+
+
+.contenedor-busqueda {
+    margin: 20px;
+    text-align: center;
+}
+
+.contenedor-busqueda input[type="text"] {
+    padding: 10px;
+    width: 200px;
+}
+
+.contenedor-busqueda input[type="submit"] {
+    padding: 10px;
+}
+
+.contenedor-productos {
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Asegura que los productos se distribuyan bien */
+}
+
+.producto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    width: calc(30% - 20px); /* Ajusta el ancho de los productos y considera los márgenes */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.producto img {
+    max-width: 100%; /* Asegura que la imagen no desborde el contenedor */
+    height: auto;
+}
+
+
+.agregar-producto {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #e5c68c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.agregar-producto:hover {
+    background-color: #bd891a;
+}
+
+
+
+
+
+.container {
+    max-width: 500px; /* Limitar el ancho del contenedor */
+    margin: 40px auto; /* Centramos el contenedor */
+    padding: 20px; /* Espacio interno */
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente */
+    border: 1px solid #ddd; /* Borde suave */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h1 {
+    font-size: 32px; /* Tamaño del título */
+    text-align: center; /* Centrar texto */
+    margin-bottom: 20px; /* Espacio debajo del título */
+    color: #333; /* Color del texto */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Espacio entre grupos de formulario */
+}
+
+label {
+    font-size: 18px; /* Tamaño de la fuente de la etiqueta */
+    display: block; /* Las etiquetas en bloque ocupan toda la línea */
+    margin-bottom: 10px; /* Espacio debajo de las etiquetas */
+}
+
+input[type="number"],
+select {
+    width: 100%; /* Ancho completo */
+    height: 40px; /* Altura de los campos */
+    padding: 10px; /* Espacio interno */
+    border: 1px solid #ccc; /* Borde suave */
+    border-radius: 5px; /* Bordes redondeados */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+}
+
+button {
+    width: 100%; /* Ancho completo para los botones */
+    height: 45px; /* Altura de los botones */
+    padding: 10px; /* Espacio interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    margin-top: 10px; /* Espacio encima del botón */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Color de fondo del botón primario */
+    color: #fff; /* Color del texto */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Color al pasar el mouse */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Color de fondo del botón de cancelar */
+    color: #fff; /* Color del texto */
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Color al pasar el mouse */
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Color de fondo del botón secundario */
+    color: #fff; /* Color del texto */
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268; /* Color al pasar el mouse */
+}
+
+
+
+
+
+
+
+
+.editarproducto {
+    display: flex;                /* Utiliza Flexbox para centrar */
+    justify-content: center;      /* Centra horizontalmente */
+    min-height: 100vh;           /* Asegura que el contenedor ocupe al menos el 100% de la altura de la ventana */
+    margin-top: 20px;            /* Agrega un margen superior */
+
+    align-items: center;          /* Centra verticalmente */
+    max-width: 500px; /* Limitar el ancho del contenedor */
+    margin: 40px auto; /* Centramos el contenedor */
+    padding: 20px; /* Espacio interno */
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente */
+    border: 1px solid #ddd; /* Borde suave */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+
+
+    
+}
+
+.recuadro {
+    max-width: 500px;            /* Ancho máximo del cuadro */
+    width: 100%;                  /* Para que el cuadro no exceda el tamaño de la pantalla */
+    padding: 20px;                /* Espaciado interno */
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Sombra del cuadro */
+}
+
+.alert {
+    margin-bottom: 20px; /* Espacio inferior para las alertas */
+}
+
+.input-group {
+    margin-bottom: 20px; /* Espacio inferior entre los campos de entrada */
+}
+
+
+
